@@ -12647,6 +12647,8 @@ at 30/07/2012 17:04:24</description>
 <text x="287.02" y="228.6" size="1.778" layer="91">VOUT is the output of the TPS2115 and is actively limited to 500mA.</text>
 <text x="287.02" y="226.06" size="1.778" layer="91">If USB power is available, VOUT = USB; otherwise VOUT = VIN.</text>
 <text x="287.02" y="220.98" size="1.778" layer="91">Use VOUT or the 3V3 pin to power external modules.</text>
+<text x="104.14" y="243.84" size="6.4516" layer="91">Designed by AtomSoftTech</text>
+<text x="104.14" y="233.68" size="6.4516" layer="91">NeuWatch V1</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="129.54" y="83.82"/>
