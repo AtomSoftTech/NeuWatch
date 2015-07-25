@@ -14092,8 +14092,6 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="GND41" library="PowerTags" deviceset="GND" device=""/>
 <part name="C7" library="AtomTech" deviceset="CAPACITOR" device="C0402" value="22pF"/>
 <part name="C8" library="AtomTech" deviceset="CAPACITOR" device="C0402" value="22pF"/>
-<part name="R7" library="adafruit" deviceset="R-US_" device="R0402" value="4.7K"/>
-<part name="R8" library="adafruit" deviceset="R-US_" device="R0402" value="4.7K"/>
 <part name="C6" library="AtomTech" deviceset="CAPACITOR" device="C0402" value="100nF"/>
 <part name="GND46" library="supply1" deviceset="GND" device=""/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
@@ -14127,7 +14125,6 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="SUPPLY8" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="SUPPLY9" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="SUPPLY10" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
-<part name="SUPPLY11" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="SUPPLY12" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="SUPPLY13" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND16" library="PowerTags" deviceset="GND" device=""/>
@@ -14173,14 +14170,14 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY19" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
-<part name="R13" library="rcl" deviceset="R-EU_" device="R0402"/>
-<part name="R14" library="rcl" deviceset="R-EU_" device="R0402"/>
-<part name="R15" library="rcl" deviceset="R-EU_" device="R0402"/>
-<part name="R16" library="rcl" deviceset="R-EU_" device="R0402"/>
-<part name="C9" library="AtomTech" deviceset="CAPACITOR" device="C0402"/>
-<part name="C10" library="AtomTech" deviceset="CAPACITOR" device="C0402"/>
-<part name="C15" library="AtomTech" deviceset="CAPACITOR" device="C0402"/>
-<part name="C16" library="AtomTech" deviceset="CAPACITOR" device="C0402"/>
+<part name="R13" library="rcl" deviceset="R-EU_" device="R0402" value="47k"/>
+<part name="R14" library="rcl" deviceset="R-EU_" device="R0402" value="47k"/>
+<part name="R15" library="rcl" deviceset="R-EU_" device="R0402" value="47k"/>
+<part name="R16" library="rcl" deviceset="R-EU_" device="R0402" value="47k"/>
+<part name="C9" library="AtomTech" deviceset="CAPACITOR" device="C0402" value="100nf"/>
+<part name="C10" library="AtomTech" deviceset="CAPACITOR" device="C0402" value="100nf"/>
+<part name="C15" library="AtomTech" deviceset="CAPACITOR" device="C0402" value="100nf"/>
+<part name="C16" library="AtomTech" deviceset="CAPACITOR" device="C0402" value="100nf"/>
 <part name="U$1" library="AtomTech" deviceset="ADXL335" device=""/>
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
@@ -14205,8 +14202,8 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="C20" library="AtomTech" deviceset="CAPACITOR" device="C0402" value="100nf"/>
 <part name="R22" library="rcl" deviceset="R-EU_" device="R0402" value="47k"/>
 <part name="R23" library="rcl" deviceset="R-EU_" device="R0402" value="150k"/>
-<part name="T1" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="BC846BLT1"/>
-<part name="R24" library="rcl" deviceset="R-EU_" device="R0402" value="5.6k"/>
+<part name="T1" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="BC846BLT1" value="846"/>
+<part name="R24" library="rcl" deviceset="R-EU_" device="R0402" value="5.6k "/>
 <part name="T2" library="AtomTech" deviceset="2N7002_ALT" device=""/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="VIN" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
@@ -14214,12 +14211,13 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <sheets>
 <sheet>
 <plain>
-<text x="86.36" y="165.1" size="1.778" layer="91" rot="R90">The Neutrino's SPI port has a 3V3 pin in place of the 5V pin present on the Zero!</text>
+<text x="96.52" y="152.4" size="1.778" layer="91">The Neutrino's SPI port has a 3V3 pin in place of the 5V pin present on the Zero!</text>
 <text x="287.02" y="228.6" size="1.778" layer="91">VOUT is the output of the TPS2115 and is actively limited to 500mA.</text>
 <text x="287.02" y="226.06" size="1.778" layer="91">If USB power is available, VOUT = USB; otherwise VOUT = VIN.</text>
 <text x="287.02" y="220.98" size="1.778" layer="91">Use VOUT or the 3V3 pin to power external modules.</text>
 <text x="104.14" y="243.84" size="6.4516" layer="91">Designed by AtomSoftTech</text>
 <text x="104.14" y="233.68" size="6.4516" layer="91">NeuWatch V1</text>
+<text x="86.36" y="116.84" size="1.9304" layer="91" rot="R90">SC20S-7PF20PPM</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="129.54" y="83.82"/>
@@ -14228,7 +14226,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <instance part="GND36" gate="1" x="210.82" y="91.44"/>
 <instance part="C11" gate="G$1" x="218.44" y="101.6"/>
 <instance part="GND38" gate="1" x="218.44" y="91.44"/>
-<instance part="GND40" gate="1" x="231.14" y="91.44"/>
+<instance part="GND40" gate="1" x="231.14" y="88.9"/>
 <instance part="C5" gate="G$1" x="48.26" y="96.52" smashed="yes">
 <attribute name="NAME" x="52.324" y="96.901" size="1.778" layer="95"/>
 <attribute name="VALUE" x="52.324" y="94.361" size="1.778" layer="96"/>
@@ -14242,12 +14240,10 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <attribute name="NAME" x="72.644" y="121.793" size="1.778" layer="95"/>
 <attribute name="VALUE" x="71.12" y="124.587" size="1.778" layer="96"/>
 </instance>
-<instance part="R7" gate="G$1" x="210.82" y="71.12"/>
-<instance part="R8" gate="G$1" x="210.82" y="63.5"/>
 <instance part="GND25" gate="1" x="238.76" y="132.08"/>
 <instance part="R6" gate="G$1" x="226.06" y="127" rot="R90"/>
 <instance part="C1" gate="G$1" x="198.12" y="81.28" rot="R90"/>
-<instance part="R1" gate="G$1" x="78.74" y="213.36" rot="R90"/>
+<instance part="R1" gate="G$1" x="144.78" y="160.02"/>
 <instance part="C3" gate="G$1" x="48.26" y="66.04" smashed="yes" rot="R180">
 <attribute name="NAME" x="44.196" y="65.659" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="44.196" y="63.119" size="1.778" layer="96" rot="R180"/>
@@ -14258,23 +14254,22 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </instance>
 <instance part="GND6" gate="1" x="33.02" y="86.36"/>
 <instance part="U$5" gate="G$1" x="0" y="0"/>
-<instance part="GND11" gate="1" x="78.74" y="177.8"/>
+<instance part="GND11" gate="1" x="109.22" y="160.02" rot="R270"/>
 <instance part="Y1" gate="G$1" x="81.28" y="127" rot="R90"/>
 <instance part="L2" gate="G$1" x="48.26" y="106.68" smashed="yes">
 <attribute name="NAME" x="53.34" y="106.68" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="50.8" y="101.6" size="1.778" layer="96"/>
 </instance>
 <instance part="SWD" gate="G$1" x="231.14" y="139.7" rot="MR0"/>
-<instance part="SUPPLY7" gate="G$1" x="78.74" y="220.98"/>
+<instance part="SUPPLY7" gate="G$1" x="152.4" y="160.02" rot="R270"/>
 <instance part="SUPPLY8" gate="G$1" x="238.76" y="144.78"/>
 <instance part="SUPPLY9" gate="G$1" x="231.14" y="109.22"/>
 <instance part="SUPPLY10" gate="G$1" x="190.5" y="83.82" rot="R90"/>
-<instance part="SUPPLY11" gate="G$1" x="218.44" y="73.66"/>
 <instance part="SUPPLY12" gate="G$1" x="48.26" y="73.66"/>
 <instance part="SUPPLY13" gate="G$1" x="48.26" y="116.84"/>
 <instance part="GND16" gate="1" x="60.96" y="127" rot="R270"/>
 <instance part="GND17" gate="1" x="60.96" y="106.68" rot="R270"/>
-<instance part="RESET" gate="G$1" x="63.5" y="187.96" rot="R180"/>
+<instance part="RESET" gate="G$1" x="119.38" y="175.26" rot="R90"/>
 <instance part="C19" gate="G$1" x="231.14" y="96.52"/>
 </instances>
 <busses>
@@ -14304,7 +14299,6 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <segment>
 <pinref part="GND40" gate="1" pin="GND"/>
 <pinref part="C19" gate="G$1" pin="2"/>
-<wire x1="231.14" y1="93.98" x2="231.14" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="2"/>
@@ -14356,22 +14350,22 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <pinref part="GND6" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="78.74" y1="185.42" x2="78.74" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="160.02" x2="111.76" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 <pinref part="RESET" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="RESET" class="0">
 <segment>
-<label x="66.04" y="198.12" size="1.778" layer="95"/>
-<wire x1="78.74" y1="198.12" x2="78.74" y2="208.28" width="0.1524" layer="91"/>
+<label x="129.54" y="172.72" size="1.778" layer="95" rot="R270"/>
+<wire x1="129.54" y1="160.02" x2="139.7" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="81.28" y1="193.04" x2="78.74" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="193.04" x2="78.74" y2="198.12" width="0.1524" layer="91"/>
-<junction x="78.74" y="198.12"/>
-<wire x1="78.74" y1="198.12" x2="66.04" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="157.48" x2="124.46" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="160.02" x2="129.54" y2="160.02" width="0.1524" layer="91"/>
+<junction x="129.54" y="160.02"/>
+<wire x1="129.54" y1="160.02" x2="129.54" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="RESET" gate="G$1" pin="P$3"/>
-<junction x="78.74" y="193.04"/>
+<junction x="124.46" y="160.02"/>
 </segment>
 <segment>
 <label x="213.36" y="134.62" size="1.778" layer="95"/>
@@ -14384,7 +14378,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="3.3V" class="0">
 <segment>
-<wire x1="78.74" y1="218.44" x2="78.74" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="160.02" x2="152.4" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
 </segment>
@@ -14410,16 +14404,6 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <pinref part="L2" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="114.3" x2="48.26" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="SUPPLY13" gate="G$1" pin="3.3V"/>
-</segment>
-<segment>
-<pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="215.9" y1="71.12" x2="218.44" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="218.44" y1="71.12" x2="218.44" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="63.5" x2="215.9" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="71.12" x2="218.44" y2="73.66" width="0.1524" layer="91"/>
-<junction x="218.44" y="71.12"/>
-<pinref part="SUPPLY11" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
 <wire x1="236.22" y1="144.78" x2="238.76" y2="144.78" width="0.1524" layer="91"/>
@@ -14543,24 +14527,6 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <pinref part="IC1" gate="G$1" pin="PA19/EIC/SCOM1PAD3+/TC3"/>
 <wire x1="175.26" y1="60.96" x2="193.04" y2="60.96" width="0.1524" layer="91"/>
 <label x="180.34" y="60.96" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SDA" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="PA22/I2C/EIC/SCOM5PAD0+/TC4"/>
-<wire x1="175.26" y1="68.58" x2="203.2" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="68.58" x2="203.2" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="63.5" x2="205.74" y2="63.5" width="0.1524" layer="91"/>
-<label x="180.34" y="68.58" size="1.778" layer="95"/>
-<pinref part="R8" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="SCL" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="PA23/I2C/EIC/SCOM5PAD1+/TC4"/>
-<wire x1="175.26" y1="71.12" x2="205.74" y2="71.12" width="0.1524" layer="91"/>
-<label x="180.34" y="71.12" size="1.778" layer="95"/>
-<pinref part="R7" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="D7" class="0">
