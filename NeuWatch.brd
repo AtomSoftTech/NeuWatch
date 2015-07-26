@@ -15,7 +15,7 @@
 <layer number="19" name="Unrouted" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="16" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
@@ -185,7 +185,6 @@
 <dimension x1="0.127" y1="0" x2="0.127" y2="40.64" x3="-1.27" y3="20.32" textsize="0.8128" textratio="12" layer="47"/>
 <wire x1="20.828" y1="20.32" x2="22.606" y2="20.32" width="0" layer="21"/>
 <wire x1="21.717" y1="19.431" x2="21.717" y2="21.209" width="0" layer="21"/>
-<text x="38.989" y="33.2105" size="1.27" layer="22" ratio="14" rot="MR270">Designed by AtomSoftTech</text>
 </plain>
 <libraries>
 <library name="adafruit">
