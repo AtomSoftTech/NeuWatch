@@ -1,6 +1,6 @@
 ![alt tag](NeuWatch.jpg)
 
-An ArduinoZero compatible watch with extra Features:
+An ArduinoZero compatible watch with extra Features:<br>
 <br>
 ADXL335 Accelerometer<br>
 TPS61027 - BOOST 5V 1.5A (300mA safe)<br>
