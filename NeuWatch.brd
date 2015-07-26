@@ -2425,7 +2425,7 @@ MacroFab Rules</description>
 <via x="12.3825" y="28.702" extent="1-16" drill="0.3302" diameter="0.508"/>
 <via x="12.827" y="21.59" extent="1-16" drill="0.3302" diameter="0.508"/>
 <via x="11.43" y="33.0835" extent="1-16" drill="0.3302" diameter="0.508"/>
-<via x="7.366" y="10.7315" extent="1-16" drill="0.3302" diameter="0.508"/>
+<via x="7.239" y="9.2075" extent="1-16" drill="0.3302" diameter="0.508"/>
 <via x="1.27" y="26.67" extent="1-16" drill="0.3302" diameter="0.508"/>
 <via x="1.397" y="32.4485" extent="1-16" drill="0.3302" diameter="0.508"/>
 <via x="29.718" y="27.559" extent="1-16" drill="0.3302" diameter="0.508"/>
@@ -2453,15 +2453,13 @@ MacroFab Rules</description>
 <contactref element="R23" pad="1"/>
 <via x="25.0825" y="23.3045" extent="1-16" drill="0.3302" diameter="0.508"/>
 <wire x1="25.0825" y1="23.3045" x2="25.130878125" y2="23.352878125" width="0.254" layer="1"/>
+<via x="6.4135" y="13.97" extent="1-16" drill="0.3302" diameter="0.508"/>
 </signal>
 <signal name="RESET">
 <contactref element="R6" pad="2"/>
 <contactref element="R1" pad="1"/>
 <contactref element="SWD" pad="10"/>
 <contactref element="RESET" pad="P$3"/>
-<wire x1="33.423" y1="36.471" x2="33.423" y2="35.411" width="0.1778" layer="1"/>
-<wire x1="33.423" y1="35.411" x2="33.655" y2="35.179" width="0.1778" layer="1"/>
-<wire x1="33.655" y1="35.179" x2="34.275" y2="35.179" width="0.1778" layer="1"/>
 <wire x1="34.275" y1="35.179" x2="34.2265" y2="35.1155" width="0.254" layer="1"/>
 <wire x1="34.2265" y1="35.1155" x2="34.2265" y2="35.052" width="0.254" layer="1"/>
 <via x="34.2265" y="35.052" extent="1-16" drill="0.3048" diameter="0.508"/>
@@ -2478,6 +2476,8 @@ MacroFab Rules</description>
 <wire x1="32.8295" y1="14.478" x2="33.4645" y2="15.113" width="0.254" layer="1"/>
 <wire x1="33.4645" y1="15.113" x2="33.4645" y2="16.0505" width="0.254" layer="1"/>
 <wire x1="33.4645" y1="16.0505" x2="33.543" y2="16.129" width="0.254" layer="1"/>
+<wire x1="33.423" y1="36.471" x2="33.423" y2="35.8555" width="0.254" layer="1"/>
+<wire x1="33.423" y1="35.8555" x2="34.2265" y2="35.052" width="0.254" layer="1"/>
 </signal>
 <signal name="SCK/D13">
 <contactref element="IC1" pad="26"/>
@@ -3499,10 +3499,6 @@ MacroFab Rules</description>
 </signal>
 </signals>
 <errors>
-<approved hash="3,1,c6c338fb389dc6a5"/>
-<approved hash="19,1,ac9308f70d07a963"/>
-<approved hash="19,1,6be67ad26daf3e9b"/>
-<approved hash="19,1,89a303241dfbe767"/>
 <approved hash="19,1,22e3fb1934b8663e"/>
 <approved hash="19,1,d329fdaa647fc180"/>
 <approved hash="19,1,bb2a93a8337e9283"/>
@@ -3510,8 +3506,21 @@ MacroFab Rules</description>
 <approved hash="19,1,a81cd837d269831a"/>
 <approved hash="5,1,63af711998b63dd2"/>
 <approved hash="5,1,b6e3d9ff0a8621ff"/>
+<approved hash="3,1,c6c338fb389dc6a5"/>
+<approved hash="19,1,ac9308f70d07a963"/>
+<approved hash="19,1,6be67ad26daf3e9b"/>
+<approved hash="19,1,89a303241dfbe767"/>
+<approved hash="19,1,f44518649a568f0f"/>
+<approved hash="19,1,d21cdedc671692ae"/>
+<approved hash="19,1,ca4118631150d80e"/>
+<approved hash="19,1,d21de0da301119aa"/>
+<approved hash="19,1,abe1c0b82d267907"/>
+<approved hash="5,1,6a0e36f63e6fec51"/>
+<approved hash="5,1,1233943d6b5b2dee"/>
 <approved hash="19,1,6d9e087a0f146af0"/>
+<approved hash="19,1,8d9e19fa1b0b8f6f"/>
 <approved hash="19,1,c442a4295dcb38a0"/>
+<approved hash="19,1,a51cef8820e33755"/>
 <approved hash="19,1,bf509c089dd1bd4d"/>
 </errors>
 </board>
