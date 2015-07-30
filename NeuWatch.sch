@@ -6192,10 +6192,10 @@ Source: AVX .. aphvc.pdf</description>
 <device name="" package="1.5OLED">
 <connects>
 <connect gate="G$1" pin="GND" pad="P$10"/>
-<connect gate="G$1" pin="OLED_CS" pad="P$6"/>
-<connect gate="G$1" pin="OLED_DC" pad="P$5"/>
-<connect gate="G$1" pin="OLED_MOSI" pad="P$7"/>
-<connect gate="G$1" pin="OLED_RST" pad="P$9"/>
+<connect gate="G$1" pin="OLED_CS" pad="P$7"/>
+<connect gate="G$1" pin="OLED_DC" pad="P$6"/>
+<connect gate="G$1" pin="OLED_MOSI" pad="P$9"/>
+<connect gate="G$1" pin="OLED_RST" pad="P$5"/>
 <connect gate="G$1" pin="OLED_SCK" pad="P$8"/>
 <connect gate="G$1" pin="SD_CS" pad="P$1"/>
 <connect gate="G$1" pin="SD_MISO" pad="P$4"/>

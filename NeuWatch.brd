@@ -2392,10 +2392,10 @@ MacroFab Rules</description>
 </signal>
 <signal name="MOSI/D11">
 <contactref element="IC1" pad="25"/>
-<contactref element="OLED" pad="P$7"/>
+<contactref element="OLED" pad="P$9"/>
 <contactref element="OLED" pad="P$2"/>
-<wire x1="25.273" y1="2.286" x2="34.939425" y2="28.8913375" width="0" layer="19" extent="1-1"/>
-<wire x1="10.033" y1="2.286" x2="25.273" y2="2.286" width="0" layer="19" extent="1-1"/>
+<wire x1="30.353" y1="2.286" x2="34.939425" y2="28.8913375" width="0" layer="19" extent="1-1"/>
+<wire x1="10.033" y1="2.286" x2="30.353" y2="2.286" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SS/D10">
 <contactref element="IC1" pad="27"/>
@@ -2467,8 +2467,8 @@ MacroFab Rules</description>
 </signal>
 <signal name="D6">
 <contactref element="IC1" pad="29"/>
-<contactref element="OLED" pad="P$9"/>
-<wire x1="30.353" y1="2.286" x2="33.525209375" y2="30.30555" width="0" layer="19" extent="1-1"/>
+<contactref element="OLED" pad="P$5"/>
+<wire x1="20.193" y1="2.286" x2="33.525209375" y2="30.30555" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TARGET_USB_N">
 <contactref element="IC1" pad="33"/>
@@ -2527,13 +2527,13 @@ MacroFab Rules</description>
 </signal>
 <signal name="D7">
 <contactref element="IC1" pad="30"/>
-<contactref element="OLED" pad="P$5"/>
-<wire x1="20.193" y1="2.286" x2="33.17165625" y2="30.659103125" width="0" layer="19" extent="1-1"/>
+<contactref element="OLED" pad="P$6"/>
+<wire x1="22.733" y1="2.286" x2="33.17165625" y2="30.659103125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D8">
 <contactref element="IC1" pad="11"/>
-<contactref element="OLED" pad="P$6"/>
-<wire x1="22.733" y1="2.286" x2="28.54010625" y2="23.199128125" width="0" layer="19" extent="1-1"/>
+<contactref element="OLED" pad="P$7"/>
+<wire x1="25.273" y1="2.286" x2="28.54010625" y2="23.199128125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D9">
 <contactref element="IC1" pad="12"/>
