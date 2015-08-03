@@ -159,7 +159,7 @@
 <wire x1="36.703" y1="40.64" x2="6.223" y2="40.64" width="0.0762" layer="21"/>
 <wire x1="6.223" y1="31.75" x2="6.223" y2="0" width="0.0762" layer="21"/>
 <wire x1="6.223" y1="0" x2="36.703" y2="0" width="0.0762" layer="21"/>
-<text x="22.225" y="40.132" size="0.8128" layer="22" font="vector" ratio="12" rot="MR180">Arduino zero compatible</text>
+<text x="39.6875" y="12.6365" size="0.8128" layer="22" font="vector" ratio="12" rot="MR90">Arduino zero compatible</text>
 <wire x1="40.513" y1="8.89" x2="36.703" y2="8.89" width="0.0762" layer="21"/>
 <wire x1="36.703" y1="8.89" x2="36.703" y2="0" width="0.0762" layer="21"/>
 <wire x1="36.703" y1="0" x2="40.513" y2="0" width="0.0762" layer="21"/>
@@ -2089,7 +2089,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="23.84851875" y="27.523165625" size="0.6096" layer="27" rot="R315"/>
 </element>
 <element name="C11" library="AtomTech" package="C0402" value="1uF" x="35.324596875" y="32.541496875" smashed="yes" rot="R45">
-<attribute name="NAME" x="36.48221875" y="33.098590625" size="0.8128" layer="25" rot="R45"/>
+<attribute name="NAME" x="35.608409375" y="30.25921875" size="0.8128" layer="25" rot="R135"/>
 </element>
 <element name="C5" library="AtomTech" package="C0402" value="100nF" x="23.368" y="32.3215" smashed="yes" rot="R135">
 <attribute name="NAME" x="21.646834375" y="31.6228875" size="0.8128" layer="25" rot="R315"/>
@@ -2136,7 +2136,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="23.697275" y="32.627121875" size="0.4064" layer="27" font="vector" rot="R315"/>
 </element>
 <element name="SWD" library="Neutrino-" package="ARDUINO-NEUTRINO-082_CONNETTORI_PINHEAD-2X5-P127" value="PINHEAD-2x5-P1.27" x="30.607" y="38.5445" smashed="yes" rot="R270">
-<attribute name="NAME" x="34.0995" y="38.9255" size="0.8128" layer="25" font="vector" ratio="16"/>
+<attribute name="NAME" x="34.163" y="39.5605" size="0.8128" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" value="PINHEAD-2x5-P1.27" x="26.162" y="41.7195" size="0.635" layer="27" font="vector" ratio="16" rot="R270"/>
 </element>
 <element name="IC5" library="74xx-little-us" package="SC70-5" value="MC74VHC1G14DFT" x="11.684" y="32.131" smashed="yes" rot="R180">
@@ -2227,7 +2227,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="36.322" y="19.812" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R14" library="rcl" package="R0402" value="47k" x="35.179" y="36.2585" smashed="yes" rot="R180">
-<attribute name="NAME" x="33.909" y="36.6395" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="34.036" y="36.6395" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="35.814" y="38.1635" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R15" library="rcl" package="R0402" value="47k" x="33.8455" y="5.588" smashed="yes" rot="R90">
@@ -2243,7 +2243,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="37.719" y="19.812" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C10" library="AtomTech" package="C0402" value="100nf" x="35.179" y="37.719" smashed="yes" rot="R180">
-<attribute name="NAME" x="33.782" y="38.1" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="36.322" y="39.3065" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="35.814" y="39.624" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C15" library="AtomTech" package="C0402" value="100nf" x="35.3695" y="5.5245" smashed="yes" rot="R90">
@@ -2256,7 +2256,7 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="U$1" library="AtomTech" package="16LFCSP" value="ADXL335" x="21.463" y="20.32"/>
 <element name="C19" library="AtomTech" package="C0402" value="100nf" x="34.226503125" y="33.65951875" smashed="yes" rot="R45">
-<attribute name="NAME" x="35.25923125" y="34.422840625" size="0.8128" layer="25" rot="R45"/>
+<attribute name="NAME" x="33.776159375" y="32.21123125" size="0.8128" layer="25" rot="R135"/>
 <attribute name="VALUE" x="35.124528125" y="31.86346875" size="1.27" layer="27" rot="R45"/>
 </element>
 <element name="R20" library="rcl" package="R0402" value="1k" x="29.845" y="5.5245" smashed="yes" rot="R180">
@@ -2296,7 +2296,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="28.575" y="10.3505" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="OLED" library="AtomTech" package="1.5OLED" value="1.5-OLED" x="7.493" y="2.286" smashed="yes">
-<attribute name="NAME" x="15.875" y="1.778" size="1.016" layer="21"/>
+<attribute name="NAME" x="15.9385" y="1.2065" size="1.016" layer="21"/>
 </element>
 <element name="U$3" library="AtomTech" package="SOT23-5" value="AAT4610B" x="10.922" y="9.271" smashed="yes" rot="R90">
 <attribute name="NAME" x="10.155" y="8.16" size="0.8128" layer="21" rot="R90"/>
@@ -2686,9 +2686,9 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="21.717" y1="5.588" x2="20.3835" y2="4.2545" width="0.254" layer="2"/>
 <wire x1="20.3835" y1="4.2545" x2="18.3515" y2="4.2545" width="0.254" layer="2"/>
 <wire x1="18.3515" y1="4.2545" x2="17.7165" y2="3.6195" width="0.254" layer="2"/>
-<wire x1="17.7165" y1="3.6195" x2="17.7165" y2="2.4765" width="0.254" layer="2"/>
-<via x="17.7165" y="2.4765" extent="1-16" drill="0.3302"/>
-<wire x1="17.7165" y1="2.4765" x2="17.8435" y2="2.3495" width="0.254" layer="1"/>
+<wire x1="17.7165" y1="3.6195" x2="17.7165" y2="2.794" width="0.254" layer="2"/>
+<via x="17.7165" y="2.794" extent="1-16" drill="0.3302"/>
+<wire x1="17.7165" y1="2.794" x2="17.8435" y2="2.3495" width="0.254" layer="1"/>
 <wire x1="17.8435" y1="2.3495" x2="17.8435" y2="0.9525" width="0.254" layer="1"/>
 <contactref element="R26" pad="1"/>
 <wire x1="25.781" y1="19.035" x2="25.781" y2="17.576234375" width="0.254" layer="1"/>
