@@ -14040,6 +14040,9 @@ by exp-lbrs.ulp</description>
 <part name="R17" library="rcl" deviceset="R-EU_" device="R0402" value="10"/>
 <part name="R18" library="rcl" deviceset="R-EU_" device="R0402" value="4.7k"/>
 <part name="C21" library="AtomTech" deviceset="CAPACITOR" device="C0402" value="470nf"/>
+<part name="R19" library="adafruit" deviceset="R-US_" device="R0402" value="1k"/>
+<part name="R25" library="adafruit" deviceset="R-US_" device="R0402" value="1k"/>
+<part name="R26" library="adafruit" deviceset="R-US_" device="R0402" value="1k"/>
 </parts>
 <sheets>
 <sheet>
@@ -14109,6 +14112,9 @@ by exp-lbrs.ulp</description>
 <instance part="GND17" gate="1" x="99.06" y="134.62" rot="R270"/>
 <instance part="RESET" gate="G$1" x="157.48" y="203.2" rot="R90"/>
 <instance part="C19" gate="G$1" x="269.24" y="124.46"/>
+<instance part="R19" gate="G$1" x="238.76" y="88.9" rot="R180"/>
+<instance part="R25" gate="G$1" x="238.76" y="83.82" rot="R180"/>
+<instance part="R26" gate="G$1" x="238.76" y="81.28" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -14355,16 +14361,16 @@ by exp-lbrs.ulp</description>
 </net>
 <net name="MOSI/D11" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PA16/I2C/EIC/SCOM1PAD0+/TC2"/>
-<wire x1="213.36" y1="81.28" x2="231.14" y2="81.28" width="0.1524" layer="91"/>
-<label x="218.44" y="81.28" size="1.778" layer="95"/>
+<wire x1="243.84" y1="81.28" x2="259.08" y2="81.28" width="0.1524" layer="91"/>
+<label x="246.38" y="81.28" size="1.778" layer="95"/>
+<pinref part="R26" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="MISO/D12" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PA19/EIC/SCOM1PAD3+/TC3"/>
-<wire x1="213.36" y1="88.9" x2="231.14" y2="88.9" width="0.1524" layer="91"/>
-<label x="218.44" y="88.9" size="1.778" layer="95"/>
+<wire x1="243.84" y1="88.9" x2="259.08" y2="88.9" width="0.1524" layer="91"/>
+<label x="246.38" y="88.9" size="1.778" layer="95"/>
+<pinref part="R19" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="D7" class="0">
@@ -14553,9 +14559,30 @@ by exp-lbrs.ulp</description>
 </net>
 <net name="SCK/D13" class="0">
 <segment>
+<wire x1="243.84" y1="83.82" x2="259.08" y2="83.82" width="0.1524" layer="91"/>
+<label x="246.38" y="83.82" size="1.778" layer="95"/>
+<pinref part="R25" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="PA19/EIC/SCOM1PAD3+/TC3"/>
+<pinref part="R19" gate="G$1" pin="2"/>
+<wire x1="233.68" y1="88.9" x2="213.36" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
 <pinref part="IC1" gate="G$1" pin="PA17/I2C/EIC/SCOM1PAD1+/TC2"/>
-<wire x1="213.36" y1="83.82" x2="231.14" y2="83.82" width="0.1524" layer="91"/>
-<label x="218.44" y="83.82" size="1.778" layer="95"/>
+<pinref part="R25" gate="G$1" pin="2"/>
+<wire x1="233.68" y1="83.82" x2="213.36" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="PA16/I2C/EIC/SCOM1PAD0+/TC2"/>
+<pinref part="R26" gate="G$1" pin="2"/>
+<wire x1="233.68" y1="81.28" x2="213.36" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
