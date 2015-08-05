@@ -14043,6 +14043,9 @@ by exp-lbrs.ulp</description>
 <part name="R19" library="adafruit" deviceset="R-US_" device="R0402" value="1k"/>
 <part name="R25" library="adafruit" deviceset="R-US_" device="R0402" value="1k"/>
 <part name="R26" library="adafruit" deviceset="R-US_" device="R0402" value="1k"/>
+<part name="R27" library="adafruit" deviceset="R-US_" device="R0402" value="1k"/>
+<part name="R28" library="adafruit" deviceset="R-US_" device="R0402" value="1k"/>
+<part name="R29" library="adafruit" deviceset="R-US_" device="R0402" value="1k"/>
 </parts>
 <sheets>
 <sheet>
@@ -14115,6 +14118,9 @@ by exp-lbrs.ulp</description>
 <instance part="R19" gate="G$1" x="238.76" y="88.9" rot="R180"/>
 <instance part="R25" gate="G$1" x="238.76" y="83.82" rot="R180"/>
 <instance part="R26" gate="G$1" x="238.76" y="81.28" rot="R180"/>
+<instance part="R27" gate="G$1" x="238.76" y="93.98" rot="R180"/>
+<instance part="R28" gate="G$1" x="238.76" y="91.44" rot="R180"/>
+<instance part="R29" gate="G$1" x="119.38" y="119.38" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -14347,9 +14353,9 @@ by exp-lbrs.ulp</description>
 </net>
 <net name="D6" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PA20/EIC/SCOM5PAD2+"/>
-<wire x1="213.36" y1="91.44" x2="231.14" y2="91.44" width="0.1524" layer="91"/>
-<label x="218.44" y="91.44" size="1.778" layer="95"/>
+<wire x1="243.84" y1="91.44" x2="261.62" y2="91.44" width="0.1524" layer="91"/>
+<label x="248.92" y="91.44" size="1.778" layer="95"/>
+<pinref part="R28" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="PB02_AIN10" class="0">
@@ -14375,9 +14381,9 @@ by exp-lbrs.ulp</description>
 </net>
 <net name="D7" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PA21/EIC/SCOM5PAD3+"/>
-<wire x1="213.36" y1="93.98" x2="231.14" y2="93.98" width="0.1524" layer="91"/>
-<label x="218.44" y="93.98" size="1.778" layer="95"/>
+<wire x1="243.84" y1="93.98" x2="261.62" y2="93.98" width="0.1524" layer="91"/>
+<label x="248.92" y="93.98" size="1.778" layer="95"/>
+<pinref part="R27" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="D9" class="0">
@@ -14531,9 +14537,9 @@ by exp-lbrs.ulp</description>
 </net>
 <net name="D8" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PA6/EIC/AIN6/SCOM0PAD2/TC1"/>
-<wire x1="124.46" y1="119.38" x2="106.68" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="119.38" x2="106.68" y2="119.38" width="0.1524" layer="91"/>
 <label x="106.68" y="119.38" size="1.778" layer="95"/>
+<pinref part="R29" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="PB10_S4_SPI_MOSI" class="0">
@@ -14569,6 +14575,7 @@ by exp-lbrs.ulp</description>
 <pinref part="IC1" gate="G$1" pin="PA19/EIC/SCOM1PAD3+/TC3"/>
 <pinref part="R19" gate="G$1" pin="2"/>
 <wire x1="233.68" y1="88.9" x2="213.36" y2="88.9" width="0.1524" layer="91"/>
+<label x="220.98" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -14576,6 +14583,7 @@ by exp-lbrs.ulp</description>
 <pinref part="IC1" gate="G$1" pin="PA17/I2C/EIC/SCOM1PAD1+/TC2"/>
 <pinref part="R25" gate="G$1" pin="2"/>
 <wire x1="233.68" y1="83.82" x2="213.36" y2="83.82" width="0.1524" layer="91"/>
+<label x="220.98" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -14583,6 +14591,29 @@ by exp-lbrs.ulp</description>
 <pinref part="IC1" gate="G$1" pin="PA16/I2C/EIC/SCOM1PAD0+/TC2"/>
 <pinref part="R26" gate="G$1" pin="2"/>
 <wire x1="233.68" y1="81.28" x2="213.36" y2="81.28" width="0.1524" layer="91"/>
+<label x="220.98" y="81.28" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="PA20/EIC/SCOM5PAD2+"/>
+<pinref part="R28" gate="G$1" pin="2"/>
+<wire x1="213.36" y1="91.44" x2="233.68" y2="91.44" width="0.1524" layer="91"/>
+<label x="220.98" y="91.44" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="R27" gate="G$1" pin="2"/>
+<pinref part="IC1" gate="G$1" pin="PA21/EIC/SCOM5PAD3+"/>
+<wire x1="233.68" y1="93.98" x2="213.36" y2="93.98" width="0.1524" layer="91"/>
+<label x="220.98" y="93.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="PA6/EIC/AIN6/SCOM0PAD2/TC1"/>
+<pinref part="R29" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
