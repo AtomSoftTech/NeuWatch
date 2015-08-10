@@ -188,6 +188,8 @@
 <dimension x1="40.513" y1="0" x2="40.513" y2="20.32" x3="42.291" y3="10.16" textsize="0.8128" layer="47"/>
 <wire x1="40.513" y1="20.32" x2="21.463" y2="20.32" width="0" layer="47"/>
 <wire x1="21.463" y1="20.32" x2="21.463" y2="43.815" width="0" layer="47"/>
+<text x="36.322" y="29.718" size="2.1844" layer="22" font="vector" ratio="13" rot="MR270">ZeroWatch</text>
+<text x="38.4175" y="13.3985" size="0.8128" layer="21" font="vector" ratio="13" rot="R270">r1v1</text>
 </plain>
 <libraries>
 <library name="adafruit">
