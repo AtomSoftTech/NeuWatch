@@ -14023,7 +14023,7 @@ by exp-lbrs.ulp</description>
 <part name="R23" library="rcl" deviceset="R-EU_" device="R0402" value="150k"/>
 <part name="T1" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="BC846BLT1" value="846"/>
 <part name="R24" library="rcl" deviceset="R-EU_" device="R0402" value="5.6k "/>
-<part name="T2" library="AtomTech" deviceset="2N7002_ALT" device=""/>
+<part name="T2" library="AtomTech" deviceset="2N7002_ALT" device="" value="2N7002"/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="VIN" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="OLED" library="AtomTech" deviceset="1.5-OLED" device=""/>
