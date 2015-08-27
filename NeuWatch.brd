@@ -16,7 +16,7 @@
 <layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="16" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
@@ -207,7 +207,7 @@
 <text x="14.986" y="31.1785" size="0.6096" layer="27" font="vector" ratio="12" rot="R90">100k</text>
 <text x="6.2865" y="32.766" size="0.6096" layer="27" font="vector" ratio="12">330</text>
 <text x="10.705196875" y="20.124984375" size="0.6096" layer="27" font="vector" ratio="12" rot="R90">100nf</text>
-<text x="13.335" y="20.5105" size="0.6096" layer="27" font="vector" ratio="12" rot="R90">100k</text>
+<text x="13.3985" y="20.3835" size="0.6096" layer="27" font="vector" ratio="12" rot="R90">100k</text>
 <wire x1="1.524" y1="42.164" x2="41.5925" y2="42.164" width="0.3048" layer="27"/>
 <wire x1="41.5925" y1="42.164" x2="41.5925" y2="-1.143" width="0.3048" layer="27"/>
 <wire x1="41.5925" y1="-1.143" x2="1.524" y2="-1.143" width="0.3048" layer="27"/>
@@ -2165,18 +2165,18 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="IC5" library="74xx-little-us" package="SC70-5" value="MC74VHC1G14DFT" x="11.684" y="32.131" smashed="yes" rot="R180">
 <attribute name="NAME" x="12.827" y="34.417" size="0.8128" layer="25" rot="R180"/>
-<attribute name="VALUE" x="10.8585" y="34.036" size="0.6096" layer="27" ratio="12"/>
+<attribute name="VALUE" x="10.795" y="34.6075" size="0.6096" layer="27" ratio="12"/>
 </element>
 <element name="IC3" library="swift" package="8-VDFN" value="TPS2115" x="12.6365" y="27.3685" smashed="yes">
 <attribute name="NAME" x="10.8585" y="26.7335" size="0.8128" layer="25" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="R2" library="adafruit" package="R0402" value="1K" x="14.2494" y="23.749" smashed="yes" rot="R90">
 <attribute name="NAME" x="14.6304" y="21.209" size="0.8128" layer="25" rot="R90"/>
-<attribute name="VALUE" x="14.6939" y="21.3995" size="0.6096" layer="27" ratio="12" rot="R90"/>
+<attribute name="VALUE" x="14.4399" y="21.336" size="0.6096" layer="27" ratio="12" rot="R90"/>
 </element>
 <element name="R3" library="adafruit" package="R0402" value="100K" x="11.684" y="23.749" smashed="yes" rot="R90">
 <attribute name="NAME" x="12.065" y="21.209" size="0.8128" layer="25" rot="R90"/>
-<attribute name="VALUE" x="12.0015" y="20.5105" size="0.6096" layer="27" ratio="12" rot="R90"/>
+<attribute name="VALUE" x="12.065" y="20.447" size="0.6096" layer="27" ratio="12" rot="R90"/>
 </element>
 <element name="IC4" library="swift" package="TDFN4" value="SIP32401A" x="8.89" y="15.113" smashed="yes" rot="R270"/>
 <element name="R11" library="adafruit" package="R0402" value="100K" x="9.144" y="31.3055" smashed="yes">
@@ -2233,7 +2233,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="14.097" y="17.1196" size="0.8128" layer="25" ratio="10" rot="SR90"/>
 <attribute name="VALUE" x="13.1826" y="17.907" size="0.6096" layer="27" ratio="12" rot="SR0"/>
 </element>
-<element name="L1" library="Bourns_By_element14_Batch_1" package="INDC1610X12N" value="120 nH" x="11.811" y="15.113" smashed="yes">
+<element name="L1" library="Bourns_By_element14_Batch_1" package="INDC1610X12N" value="1.5 uH" x="11.811" y="15.113" smashed="yes">
 <attribute name="OC_NEWARK" value="86K1771" x="11.049" y="-9.906" size="1.016" layer="27" font="vector" ratio="12" display="off"/>
 <attribute name="TOLERANCE" value="±5 %" x="11.049" y="-9.906" size="1.016" layer="27" font="vector" ratio="12" display="off"/>
 <attribute name="MPN" value="PM0603-R12J-RC" x="11.049" y="-9.906" size="1.016" layer="27" font="vector" ratio="12" display="off"/>
@@ -2288,12 +2288,12 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="32.0675" y="5.842" size="0.6096" layer="27" ratio="12" rot="R180"/>
 </element>
 <element name="R21" library="rcl" package="R0402" value="560k" x="30.48" y="7.62" smashed="yes" rot="R270">
-<attribute name="NAME" x="28.8925" y="10.9855" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="30.099" y="11.049" size="0.8128" layer="25" rot="R270"/>
 <attribute name="VALUE" x="30.607" y="9.017" size="0.6096" layer="27" ratio="12" rot="R90"/>
 </element>
 <element name="C2" library="AtomTech" package="C0402" value="100pf" x="29.21" y="7.62" smashed="yes" rot="R90">
-<attribute name="NAME" x="30.988" y="8.89" size="0.8128" layer="25" rot="R90"/>
-<attribute name="VALUE" x="29.4005" y="8.8265" size="0.6096" layer="27" ratio="12" rot="R90"/>
+<attribute name="NAME" x="29.5275" y="8.89" size="0.8128" layer="25" rot="R90"/>
+<attribute name="VALUE" x="29.4005" y="8.6995" size="0.6096" layer="27" ratio="12" rot="R90"/>
 </element>
 <element name="C20" library="AtomTech" package="C0402" value="100nf" x="23.876" y="6.731" smashed="yes" rot="R90">
 <attribute name="NAME" x="23.1775" y="5.715" size="0.8128" layer="25" rot="R90"/>

@@ -13993,7 +13993,7 @@ by exp-lbrs.ulp</description>
 </part>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
-<part name="L1" library="Bourns_By_element14_Batch_1" deviceset="PM0603-R12J-RC" device="" value="120 nH"/>
+<part name="L1" library="Bourns_By_element14_Batch_1" deviceset="PM0603-R12J-RC" device="" value="1.5 uH"/>
 <part name="C14" library="AtomTech" deviceset="CAPACITOR" device="C0402" value="10 uF"/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY18" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
