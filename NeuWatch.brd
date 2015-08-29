@@ -2127,7 +2127,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="C6" library="AtomTech" package="C0402" value="100nF" x="10.414" y="23.749" smashed="yes" rot="R90">
 <attribute name="NAME" x="9.8884" y="23.3368" size="0.8128" layer="25" rot="R90"/>
 </element>
-<element name="R6" library="adafruit" package="R0402" value="330" x="34.29" y="16.4465" smashed="yes" rot="R270">
+<element name="R6" library="adafruit" package="R0402" value="30" x="34.29" y="16.4465" smashed="yes" rot="R270">
 <attribute name="NAME" x="34.6766" y="13.8909" size="0.8128" layer="25" rot="R90"/>
 </element>
 <element name="C1" library="AtomTech" package="C0402" value="100nF" x="36.549696875" y="27.7495" smashed="yes" rot="R90">

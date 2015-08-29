@@ -13929,7 +13929,7 @@ by exp-lbrs.ulp</description>
 <part name="C6" library="AtomTech" deviceset="CAPACITOR" device="C0402" value="100nF"/>
 <part name="GND46" library="supply1" deviceset="GND" device=""/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
-<part name="R6" library="adafruit" deviceset="R-US_" device="R0402" value="330"/>
+<part name="R6" library="adafruit" deviceset="R-US_" device="R0402" value="30"/>
 <part name="C1" library="AtomTech" deviceset="CAPACITOR" device="C0402" value="100nF"/>
 <part name="R1" library="adafruit" deviceset="R-US_" device="R0402" value="100K"/>
 <part name="C3" library="AtomTech" deviceset="CAPACITOR" device="C0402" value="100nF"/>
